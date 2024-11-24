@@ -1,0 +1,96 @@
+body{/*define a familia da fonte, a cor do fundo e limpa a margem*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #d3cfcf;
+}
+
+header{
+    background:darkcyan;
+    text-align: center;
+    padding: 5px;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+}
+
+#menu{
+    list-style-type: none;
+    background: darkcyan;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+a{/*aqui tem toda a decoracao do menu*/
+    font-size: 20px;
+    text-align: center;
+    width: 25%;
+    color: white;
+    text-decoration: none;
+    padding: 16px 0px;
+    display: block;
+    float: left;
+}
+
+a:hover{/*cria um efeito quando o mouse passa por cima*/
+    background-color: white;
+    color:darkcyan;
+}
+
+h2{
+    font-size: 20px;
+}
+p{font-size: 18px;}
+
+#post{
+    padding: 20px;
+    background: white;
+    margin: 35px;
+}
+
+#underline{/*cria uma linha abaixo do h2*/
+    border-bottom: 2px solid black;
+}
+
+label{
+    font-size: 18px;
+    padding: 16px 0px;
+    margin: 10px;
+}
+
+#caixatxt{/*define o tamanho da caixa onde o usuario digata o nome e email*/
+    font-size: 18px;
+    padding: 0px 0px;
+    margin: 5px;
+    width: 50%;
+}
+
+textarea{/*define o tamanho da area onde o usuario digita a mensagem*/
+    font-size: 18px;
+    margin: 5px;
+    width: 46%;
+    height: 200px;
+    resize: none;
+}
+
+#subir{
+    float: left;
+    margin-top: 0;
+}
+
+button{/*muda o tamanho, cor do fundo e da fonte do botao*/
+    width: 80px;
+    height: 40px;
+    background: darkcyan;
+    color: white;
+    border: darkcyan;
+    border-radius: 30px;
+}
+
+button:hover{/*altera a aparencia do bota quando o mouse passa por cima*/
+    border: 5px rgb(0, 43, 43);
+    background-color: rgb(0, 92, 92);
+    color: white;
+}
